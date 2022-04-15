@@ -1,0 +1,177 @@
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    max-height: 32px;
+    align-items: center;
+    margin: auto 0px;
+    padding-left: 24px;
+}
+
+.logo .col {
+    font-size: 28px;
+    color: rgb(63, 63, 63);
+    font-weight: 300;
+}
+
+.logo .acad {
+    font-size: 28px;
+    color: rgb(202, 202, 202);
+    font-weight: 300;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.on,
+.online,
+.company {
+    margin-right: 16px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.sign {
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-right: 24px;
+}
+
+.banner img {
+    max-width: 60%;
+    padding: 32px 24px;
+    text-align: left;
+}
+
+.banner {
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    align-items: center;
+}
+
+.banner-data .line1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    max-width: 80%;
+}
+
+.banner-data .line2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-top: 14px;
+    max-width: 80%;
+}
+
+.banner-data {
+    max-width: 450px;
+}
+
+.banner button {
+    background-color: rgb(63, 63, 63);
+    border: none;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-height: 3rem;
+    width: 80%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    transition: background-color 400ms ease-in 20ms;
+}
+
+.banner button:hover {
+    background-color: skyblue;
+}
+
+.webpage {
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.reading {
+    max-width: 60%;
+    margin: 32px 24px;
+}
+
+.practicing {
+    display: flex;
+}
+
+.reading img {
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.tiling {
+    width: 40%;
+    margin-top: 16px;
+    border-left: 1px solid lightgray;
+}
+
+.orient,
+.our,
+.guest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orient img,
+.our img,
+.guest img {
+    width: 100%;
+}
+
+.tiles {
+    width: 65%;
+}
+
+.img {
+    width: 35%;
+    margin: 16px;
+}
+
+.our .img {
+    padding: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.orient {
+    border-bottom: 5px double lightgray;
+}
+
+.our {
+    border-bottom: 5px double lightgray;
+}
+
+.tiles a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.tiles p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.tiles-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.guest {
+    background-color: rgb(202, 202, 202);
+}
